@@ -1,8 +1,12 @@
 import React from 'react'
 
+import OrderOverview from '../Components/OrderOverview'
+
 function OrdersPage() {
   return (
-    <div>OrdersPage</div>
+    <div>
+      <OrderOverview />
+    </div>
   )
 }
 

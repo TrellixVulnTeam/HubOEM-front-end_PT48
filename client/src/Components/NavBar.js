@@ -18,13 +18,13 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/machines" exact activeClassName="active">
-                            Machines
+                        <NavLink to="/orders" exact activeClassName="active">
+                            Orders
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/orders" exact activeClassName="active">
-                            Orders
+                        <NavLink to="/machines" exact activeClassName="active">
+                            Machines
                         </NavLink>
                     </li>
                     <li className="nav-item">
