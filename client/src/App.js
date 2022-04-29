@@ -4,11 +4,13 @@ import { useState } from 'react';
 
 import NavBar from './Components/NavBar.js';
 import HomePage from './Pages/HomePage.js';
+import DashboardPage from './Pages/DashboardPage.js';
 import MachinesPage from './Pages/MachinesPage.js';
 import OrdersPage from './Pages/OrdersPage.js';
 import ServicesPage from './Pages/ServicesPage.js';
 import DocumentsPage from './Pages/DocumentsPage.js';
 import OEMsPage from './Pages/OEMsPage.js';
+import MessagesPage from './Pages/MessagesPage.js';
 import ContactPage from './Pages/ContactPage.js';
 
 
@@ -24,6 +26,8 @@ function App() {
 
             <Route path="/" element={<HomePage />} />
 
+            <Route path="/dashboard" element={<DashboardPage />} />
+
             <Route path="/machines" element={<MachinesPage />} />
 
             <Route path="/orders" element={<OrdersPage />} />
@@ -33,6 +37,8 @@ function App() {
             <Route path="/documents" element={<DocumentsPage />} />
 
             <Route path="/OEMs" element={<OEMsPage />} />
+
+            <Route path="/messages" element={<MessagesPage />} />
 
             <Route path="/contact" element={<ContactPage />} />
 
