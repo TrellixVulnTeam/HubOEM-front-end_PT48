@@ -1,12 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+import HubOEM_logo from '../img/huboem.jpeg'
+
 function Navbar() {
     return (
         <div className="NavBar">
             <nav className="nav">
-                <div className="profile">
-                    <img src={avatar} alt="" />
+                <div className="logo">
+                    <img src={HubOEM_logo} alt="" />
                 </div>
 
                 <ul className="nav-items">
@@ -16,30 +18,40 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
-                            About
+                        <NavLink to="/machines" exact activeClassName="active">
+                            Machines
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolio" exact activeClassName="active">
-                            Portfolio
+                        <NavLink to="/orders" exact activeClassName="active">
+                            Orders
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/blogs" exact activeClassName="active">
-                            Blogs
+                        <NavLink to="/services" exact activeClassName="active">
+                            Request Service
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
-                            Contact
+                        <NavLink to="/documents" exact activeClassName="active">
+                            Documents
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/oems" exact activeClassName="active">
+                            OEMs
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/messages" exact activeClassName="active">
+                            Messages
                         </NavLink>
                     </li>
                 </ul>
 
                 <footer className="footer">
                     <p>
-                        @2022 Copyrizght
+                        @2022 Copyright©
                     </p>
                 </footer>
             </nav>
