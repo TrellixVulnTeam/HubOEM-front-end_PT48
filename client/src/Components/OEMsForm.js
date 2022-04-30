@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ServicesForm() {
+function OEMsForm() {
     return (
         <>
             <form>
@@ -12,20 +12,17 @@ function ServicesForm() {
                     <option>InLine</option>
                     <option>Cont. Paper</option>
                 </select>
-                <label>Machine</label>
+                <label>Options</label>
                 <select>
-                    <option>#5849032</option>
-                    <option>#432</option>
-                    <option>#54327890-L</option>
-                    <option>#543829</option>
-                    <option>#5432-540</option>
-                    <option>#5453-</option>
+                    <option>View Machines</option>
+                    <option>Request Quote</option>
+                    <option>Request Service</option>
+                    <option>View Documents</option>
                 </select>
-                <input placeholder="Message"></input>
                 <button>Submit</button>
             </form>
         </>
     )
 }
 
-export default ServicesForm
+export default OEMsForm

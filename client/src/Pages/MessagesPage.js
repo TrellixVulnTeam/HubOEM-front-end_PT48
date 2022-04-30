@@ -1,8 +1,12 @@
 import React from 'react'
 
+import MessagesInput from '../Components/MessageInput'
+
 function MessagesPage() {
   return (
-    <div>MessagesPage</div>
+    <div>
+      <MessagesInput />
+    </div>
   )
 }
 

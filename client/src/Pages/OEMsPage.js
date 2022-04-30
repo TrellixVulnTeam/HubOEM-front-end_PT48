@@ -1,8 +1,12 @@
 import React from 'react'
 
+import OEMsForm from '../Components/OEMsForm'
+
 function OEMsPage() {
   return (
-    <div>OEMsPage</div>
+    <div>
+      <OEMsForm />
+    </div>
   )
 }
 
