@@ -1,8 +1,12 @@
 import React from 'react'
 
+import ServicesForm from '../Components/ServicesForm'
+
 function ServicesPage() {
   return (
-    <div>ServicesPage</div>
+    <div>
+      <ServicesForm />
+    </div>
   )
 }
 

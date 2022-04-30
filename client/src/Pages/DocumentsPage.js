@@ -2,7 +2,9 @@ import React from 'react'
 
 function DocumentsPage() {
   return (
-    <div>DocumentsPage</div>
+    <div>
+      
+    </div>
   )
 }
 

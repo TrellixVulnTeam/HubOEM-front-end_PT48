@@ -5,8 +5,9 @@ import { useState } from 'react';
 import NavBar from './Components/NavBar.js';
 import HomePage from './Pages/HomePage.js';
 import DashboardPage from './Pages/DashboardPage.js';
-import MachinesPage from './Pages/MachinesPage.js';
 import OrdersPage from './Pages/OrdersPage.js';
+import PlaceOrderPage from './Pages/PlaceOrderPage.js';
+import MachinesPage from './Pages/MachinesPage.js';
 import ServicesPage from './Pages/ServicesPage.js';
 import DocumentsPage from './Pages/DocumentsPage.js';
 import OEMsPage from './Pages/OEMsPage.js';
@@ -28,9 +29,11 @@ function App() {
 
             <Route path="/dashboard" element={<DashboardPage />} />
 
-            <Route path="/machines" element={<MachinesPage />} />
-
             <Route path="/orders" element={<OrdersPage />} />
+
+            <Route path="/order_parts" element={<PlaceOrderPage />} />
+
+            <Route path="/machines" element={<MachinesPage />} />
 
             <Route path="/services" element={<ServicesPage />} />
 
