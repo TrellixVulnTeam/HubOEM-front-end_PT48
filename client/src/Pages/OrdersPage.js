@@ -11,7 +11,7 @@ function OrdersPage() {
   }
   
   return (
-    <div>
+    <div className="OrdersPage">
       <button onClick={placeOrder}>Place an Order</button>
       <OrderOverview />
     </div>

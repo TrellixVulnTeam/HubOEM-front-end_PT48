@@ -7,8 +7,8 @@ function Navbar() {
     return (
         <div className="NavBar">
             <nav className="nav">
-                <div className="logo">
-                    <img src={HubOEM_logo} alt="" />
+                <div className="nav__logo">
+                    <img className="nav__logo_img" src={HubOEM_logo} alt="" />
                 </div>
 
                 <ul className="nav-items">

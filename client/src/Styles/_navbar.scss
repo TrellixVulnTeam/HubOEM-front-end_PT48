@@ -8,18 +8,20 @@
         justify-content: space-between;
         align-items: center;
 
+        .nav__logo {
+            .nav__logo_img {
+                width: 15%;
+                border-radius: 100%;
+                border: 5px solid #2e344e;
+                margin-bottom: 1rem;
+            }
+        }
+
         .profile {
             width: 100%;
             text-align: center;
             margin-top: 1rem;
             border-bottom: 1px solid #2e344e;
-
-            img {
-                width: 70%;
-                border-radius: 100%;
-                border: 5px solid #2e344e;
-                margin-bottom: 1rem;
-            }
         }
 
         .nav-items {

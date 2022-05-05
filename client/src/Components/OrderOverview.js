@@ -4,21 +4,23 @@ import OrderLineItems from '../Components/OrderLineItems'
 
 function OrderOverview() {
     return (
-        <div className="Dashboard__order-overview__container">
-            <div className="Dashboard__order-overview__container__header">
-                <div className="Dashboard__order-overview__container__title">
-                    Order Overview
+        <div className="OrderOverview_container__container">
+            <div>
+                <div className="OrderOverview_container__container__header">
+                    <div className="OrderOverview_container__container__title">
+                        Order Overview
+                    </div>
+                    <div className="OrderOverview_container__container__date-range">
+                        Select Dates
+                    </div>
                 </div>
-                <div className="Dashboard__order-overview__container__date-range">
-                    Select Dates
-                </div>
-                <div className="Dashboard__order-overview__container__options">
+                <div className="OrderOverview_container__container__options">
                     <h5>Totals</h5>
                     <h5>Companies</h5>
                     <h5>Machine Types</h5>
                 </div>
-                <div className="Dashboard__order-overview__container__orders-section">
-                    <div className="Dashboard__order-overview__container__orders-section">
+                <div className="OrderOverview_container__container__orders-section">
+                    <div className="OrderOverview_container__container__orders-section">
                         {/* map orders with an order component */}
                         <table>
                             <tr>
