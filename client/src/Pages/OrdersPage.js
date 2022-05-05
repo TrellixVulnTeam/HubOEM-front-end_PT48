@@ -9,6 +9,7 @@ function OrdersPage() {
   function placeOrder() {
     navigate('/order_parts')
   }
+  
   return (
     <div>
       <button onClick={placeOrder}>Place an Order</button>
