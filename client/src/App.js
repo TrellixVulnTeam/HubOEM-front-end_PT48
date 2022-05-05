@@ -1,6 +1,7 @@
-import './App.css';
+import './App.scss';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 import NavBar from './Components/NavBar.js';
 import HomePage from './Pages/HomePage.js';
@@ -17,8 +18,8 @@ import ContactPage from './Pages/ContactPage.js';
 
 function App() {
   return (
-    <div>
-      <div>
+    <div className="App">
+      <div className="sidebar">
         <NavBar />
       </div>
       <div className='main-content'>
