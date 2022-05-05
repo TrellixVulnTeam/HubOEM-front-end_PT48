@@ -4,7 +4,7 @@ import OEMsForm from '../Components/OEMsForm'
 
 function OEMsPage() {
   return (
-    <div>
+    <div className="OEMsPage">
       <OEMsForm />
     </div>
   )

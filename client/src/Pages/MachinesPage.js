@@ -4,7 +4,7 @@ import MachineLineItem from '../Components/MachineLineItem'
 
 function MachinesPage() {
   return (
-    <div>
+    <div className="MachinesPage">
       <table>
         <tr>
           <th>Serial #</th>

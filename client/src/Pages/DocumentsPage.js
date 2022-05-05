@@ -4,7 +4,7 @@ import DocumentsForm from '../Components/DocumentsForm'
 
 function DocumentsPage() {
   return (
-    <div>
+    <div className="DocumentsPage">
       <p>hello</p>
       <DocumentsForm />
     </div>

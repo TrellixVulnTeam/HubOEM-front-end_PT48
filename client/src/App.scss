@@ -1,13 +1,11 @@
 @import './styles/_navbar.scss';
 @import './styles/_layout';
 @import './styles/_orderspage';
-// @import './styles/blogspage';
-// @import './styles/contactpage';
-// @import './styles/_portfoliopage';
-// @import './styles/services';
-// @import './styles/skill';
-// @import './styles/title';
-// @import './styles/typography';
+@import './styles/_machinespage';
+@import './styles/_servicespage';
+@import './styles/_documentspage';
+@import './styles/_oemspage';
+@import './styles/_messagespage';
 
 * {
     padding: 0;

@@ -4,7 +4,7 @@ import ServicesForm from '../Components/ServicesForm'
 
 function ServicesPage() {
   return (
-    <div>
+    <div className="ServicesPage">
       <ServicesForm />
     </div>
   )

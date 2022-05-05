@@ -4,7 +4,7 @@ import MessagesInput from '../Components/MessageInput'
 
 function MessagesPage() {
   return (
-    <div>
+    <div className="MessagesPage">
       <MessagesInput />
     </div>
   )
