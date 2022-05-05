@@ -1,7 +1,10 @@
 .OrdersPage {
+    .button__green {
+        background-color: #5ED797;
+    }
     .OrderOverview_container {
         margin: 1.5rem;
-        border: 1px solid white;
+        border: 1px solid #202353;
     }
 
     .OrderOverview_container__header {

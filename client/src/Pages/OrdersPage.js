@@ -12,7 +12,7 @@ function OrdersPage() {
   
   return (
     <div className="OrdersPage">
-      <button onClick={placeOrder}>Place an Order</button>
+      <button className="button__green" onClick={placeOrder}>Place an Order</button>
       <OrderOverview />
     </div>
   )

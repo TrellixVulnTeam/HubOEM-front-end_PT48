@@ -22,7 +22,7 @@ function ServicesForm() {
                     <option>#5453-</option>
                 </select>
                 <input placeholder="Message"></input>
-                <button>Submit</button>
+                <button className="button__green">Submit</button>
             </form>
         </>
     )
