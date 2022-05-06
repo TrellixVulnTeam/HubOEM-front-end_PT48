@@ -1,0 +1,13 @@
+.Dashboard {
+    .Dashboard__quick-links-section {
+        border: 3px solid #fff;
+        padding: 20px;
+
+        .Dashboard__quick-links-section__container {
+            width: 33%;
+            float: left;
+            padding: 20px;
+            border: 2px solid red;
+        }
+    }
+}

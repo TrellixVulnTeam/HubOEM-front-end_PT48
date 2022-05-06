@@ -2,8 +2,8 @@ import React from 'react'
 
 function QuickLinks({ title }) {
     return (
-        <div>
-            <div>{title}</div>
+        <div className="Dashboard__quick-links-section">
+            <div className="Dashboard__quick-links-section__container">{title}</div>
         </div>
     )
 }
