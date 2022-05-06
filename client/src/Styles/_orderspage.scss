@@ -4,24 +4,31 @@
     }
     .OrderOverview_container {
         margin: 1.5rem;
+        padding: 2rem;
         border: 1px solid #202353;
     }
-
+    
     .OrderOverview_container__header {
+        padding: 1.2rem;
         display: flex;
         justify-content: center;
         align-items: center;
-
+        
         .OrderOverview_container__title {
             float: left;
         }
-
+        
         .OrderOverview_container__dateRange {
             float: right;
         }
     }
-
+    
     .OrderOverview_container__options {
         border: 1px solid white;
+        padding: 1.2rem;
     }
+}
+
+.button__green {
+    background-color: #5ED797;
 }

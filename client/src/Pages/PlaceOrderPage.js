@@ -6,7 +6,7 @@ function PlaceOrderPage() {
   return (
     <div>
         <PlaceOrderContainer />
-        <button>Add to cart</button>
+        <button className="button__green">Add to cart</button>
     </div>
   )
 }

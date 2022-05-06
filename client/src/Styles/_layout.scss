@@ -5,7 +5,8 @@
         background-color: #7FA4E7;
         position: fixed;
         z-index: 11;
-        border-right: 1px solid #2e344e;
+        border-right: 2px solid #2e344e;
+        box-shadow: 1px 1px 8px #888888;
         transform-origin: left;
 
         @media screen and (max-width: 1000px) {
