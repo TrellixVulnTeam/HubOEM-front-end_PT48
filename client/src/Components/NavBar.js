@@ -1,20 +1,25 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 import HubOEM_logo from '../img/huboem.jpeg'
 
 function Navbar() {
+    let navigate = useNavigate();
+
+    function goToHomePage() {
+        navigate('/')
+    }
     return (
         <div className="NavBar">
             <nav className="nav">
                 <div className="nav__logo">
-                    <img className="nav__logo_img" src={HubOEM_logo} alt="" />
+                    <img className="nav__logo_img" onClick={goToHomePage} src={HubOEM_logo} alt="" />
                 </div>
 
                 <ul className="nav-items">
                     <li className="nav-item">
-                        <NavLink to="/" exact activeClassName="active">
-                            Home
+                        <NavLink to="/dashboard" exact activeClassName="active">
+                            Dashboard
                         </NavLink>
                     </li>
                     <li className="nav-item">
