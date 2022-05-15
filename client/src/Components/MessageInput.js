@@ -2,13 +2,13 @@ import React from 'react'
 
 function MessageInput() {
     return (
-        <div>
-            <div>
+        <div className="MessagesInput">
+            <div className="MessagesInput__title">
                 <div>Message</div>
             </div>
-            <div>
-                <div>
-                    <input></input>
+            <div className="MessagesInput__input">
+                <div className="MessagesInput__input_border">
+                    <input className="MessagesInput__input_box"></input>
                 </div>
                 <button>Submit</button>
             </div>
