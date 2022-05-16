@@ -8,7 +8,7 @@ function DashboardPage() {
   return (
     <div className="Dashboard">
 
-      <div>
+      <div className="Dashboard__quicklinks">
         <QuickLinks title={'Order Parts'} />
         <QuickLinks title={'Request Services'} />
         <QuickLinks title={'View Documents'} />
