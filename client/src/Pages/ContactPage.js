@@ -2,7 +2,10 @@ import React from 'react'
 
 function ContactPage() {
   return (
-    <div>ContactPage</div>
+    <>
+      Email: info@huboem.com <br />
+      Phone: (719) 339-5617
+    </>
   )
 }
 
