@@ -89,7 +89,7 @@ function classNames(...classes) {
 }
 
 function DashboardPage() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
     <>
@@ -606,4 +606,4 @@ function DashboardPage() {
   )
 }
 
-export default DashboardPage;
+export default DashboardPage
